@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="LEARNSYS">
+      <ObjectId>51</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.20:35:05</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-12-19.15:45:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <CommentsHash>258651743626146</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="SC1809">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="OBJECT6">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="SC18091">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="GROUP5">
+      <ObjectId>52</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="20" parent="2" name="SEQ_TB_TOPIC">
+      <ObjectId>20627</ObjectId>
+      <CreatedTimestamp>2018-12-19.17:08:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="21" parent="2" name="SEQ_TB_USER">
+      <ObjectId>20628</ObjectId>
+      <CreatedTimestamp>2018-12-19.17:08:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="22" parent="2" name="SEQ_T_CHOSE">
+      <ObjectId>20629</ObjectId>
+      <CreatedTimestamp>2018-12-19.17:08:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="23" parent="2" name="SEQ_T_EXAM_INFO">
+      <ObjectId>20630</ObjectId>
+      <CreatedTimestamp>2018-12-19.17:08:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="24" parent="2" name="SEQ_T_PAPER_INFO">
+      <ObjectId>20631</ObjectId>
+      <CreatedTimestamp>2018-12-19.17:08:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="25" parent="2" name="SEQ_T_PAPER_QUESTION">
+      <ObjectId>20632</ObjectId>
+      <CreatedTimestamp>2018-12-19.17:08:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="26" parent="2" name="SEQ_T_QUESTIONS">
+      <ObjectId>20633</ObjectId>
+      <CreatedTimestamp>2018-12-19.17:08:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="27" parent="2" name="SEQ_T_SCORE">
+      <ObjectId>20634</ObjectId>
+      <CreatedTimestamp>2018-12-19.17:08:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="28" parent="2" name="SEQ_T_TYPE">
+      <ObjectId>20635</ObjectId>
+      <CreatedTimestamp>2018-12-19.17:08:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.17:08:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="29" parent="2" name="TB_BOARD">
+      <ObjectId>20601</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:45:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:45:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="30" parent="2" name="TB_GENDER">
+      <ObjectId>20603</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:45:46</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:45:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="31" parent="2" name="TB_ROLE">
+      <ObjectId>20605</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:45:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="32" parent="2" name="TB_TOPIC">
+      <ObjectId>20607</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:02</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="33" parent="2" name="TB_TOPIC_BACK">
+      <ObjectId>20609</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:10</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="34" parent="2" name="TB_USER">
+      <ObjectId>20611</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:22</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="35" parent="2" name="TB_USER_INFO">
+      <ObjectId>20614</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:22</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="36" parent="2" name="T_ANSWER">
+      <ObjectId>20616</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="37" parent="2" name="T_CHOSE">
+      <ObjectId>20617</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:36</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:36</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="38" parent="2" name="T_EXAM_INFO">
+      <ObjectId>20618</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:43</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:43</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="39" parent="2" name="T_PAPER_INFO">
+      <ObjectId>20619</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:43</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:43</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="40" parent="2" name="T_PAPER_QUESTION">
+      <ObjectId>20621</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:50</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:50</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="41" parent="2" name="T_QUESTIONS">
+      <ObjectId>20622</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:50</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:50</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="42" parent="2" name="T_SCORE">
+      <ObjectId>20624</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:56</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="43" parent="2" name="T_TYPE">
+      <ObjectId>20625</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:56</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="44" parent="29" name="BOARD_ID">
+      <Position>1</Position>
+      <Comment>BID</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="29" name="BOARD_NAME">
+      <Position>2</Position>
+      <Comment>板块名</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="46" parent="29" name="USER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="47" parent="29" name="PK_BOARD_ID">
+      <ObjectId>20602</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:45:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:45:34</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>BOARD_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="48" parent="29" name="PK_BOARD_ID">
+      <ModifiedTimestamp>2018-12-19.15:45:34</ModifiedTimestamp>
+      <ColNames>BOARD_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_BOARD_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="49" parent="30" name="GENDER_ID">
+      <Position>1</Position>
+      <Comment>GID
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="30" name="GENDER">
+      <Position>2</Position>
+      <Comment>性别
+</Comment>
+      <DataType>VARCHAR2(4)|0</DataType>
+    </column>
+    <index id="51" parent="30" name="PK_GENDER_ID">
+      <ObjectId>20604</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:45:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:45:53</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>GENDER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="30" name="PK_GENDER_ID">
+      <ModifiedTimestamp>2018-12-19.15:45:53</ModifiedTimestamp>
+      <ColNames>GENDER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_GENDER_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="53" parent="31" name="ROLE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="31" name="ROLE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <index id="55" parent="31" name="PK_ROLE_ID">
+      <ObjectId>20606</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:01</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:01</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>ROLE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="31" name="PK_ROLE_ID">
+      <ModifiedTimestamp>2018-12-19.15:46:01</ModifiedTimestamp>
+      <ColNames>ROLE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_ROLE_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="32" name="TOPIC_ID">
+      <Position>1</Position>
+      <Comment>tid</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="32" name="BOARD_ID">
+      <Position>2</Position>
+      <Comment>bid</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="59" parent="32" name="USER_ID">
+      <Position>3</Position>
+      <Comment>uid</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="60" parent="32" name="TITLE">
+      <Position>4</Position>
+      <Comment>标题</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="61" parent="32" name="CONTENT">
+      <Position>5</Position>
+      <Comment>内容</Comment>
+      <DataType>VARCHAR2(2000)|0</DataType>
+    </column>
+    <column id="62" parent="32" name="RELEASE_TIME">
+      <Position>6</Position>
+      <Comment>发帖时间</Comment>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="63" parent="32" name="REPLIES_COUNT">
+      <Position>7</Position>
+      <Comment>回复数</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="64" parent="32" name="PICTURE">
+      <Position>8</Position>
+      <DataType>VARCHAR2(2000)|0</DataType>
+    </column>
+    <column id="65" parent="32" name="TOP">
+      <Position>9</Position>
+      <Comment>1=true,0=false</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="66" parent="32" name="HIGHLIGHT">
+      <Position>10</Position>
+      <Comment>1=true,0=false</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0
+</DefaultExpression>
+    </column>
+    <index id="67" parent="32" name="PK_TOPIC_ID">
+      <ObjectId>20608</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:02</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>TOPIC_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="68" parent="32" name="PK_TOPIC_ID">
+      <ModifiedTimestamp>2018-12-19.15:46:02</ModifiedTimestamp>
+      <ColNames>TOPIC_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_TOPIC_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="69" parent="33" name="TOPIC_BACK_ID">
+      <Position>1</Position>
+      <Comment>TBID
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="33" name="TOPIC_ID">
+      <Position>2</Position>
+      <Comment>TID
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="71" parent="33" name="USER_ID">
+      <Position>3</Position>
+      <Comment>UID
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="72" parent="33" name="CONTENT">
+      <Position>4</Position>
+      <Comment>内容
+</Comment>
+      <DataType>VARCHAR2(2000)|0</DataType>
+    </column>
+    <column id="73" parent="33" name="RELEASE_TIME">
+      <Position>5</Position>
+      <Comment>发帖时间
+</Comment>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="74" parent="33" name="PK_TOPIC_BACK_ID">
+      <ObjectId>20610</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:11</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>TOPIC_BACK_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="75" parent="33" name="PK_TOPIC_BACK_ID">
+      <ModifiedTimestamp>2018-12-19.15:46:11</ModifiedTimestamp>
+      <ColNames>TOPIC_BACK_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_TOPIC_BACK_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="76" parent="34" name="USER_ID">
+      <Position>1</Position>
+      <Comment>UID
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="34" name="USER_NAME">
+      <Position>2</Position>
+      <Comment>用户名
+</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="78" parent="34" name="USER_PWD">
+      <Position>3</Position>
+      <Comment>密码
+</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="79" parent="34" name="ROLE_ID">
+      <Position>4</Position>
+      <Comment>角色id
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>3</DefaultExpression>
+    </column>
+    <column id="80" parent="34" name="BAN">
+      <Position>5</Position>
+      <Comment>是否封禁
+(1为被封禁，0正常)</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="81" parent="34" name="TEL">
+      <Position>6</Position>
+      <Comment>电话</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="82" parent="34" name="FACE">
+      <Position>7</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="83" parent="34" name="GENDER">
+      <Position>8</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="84" parent="34" name="AGE">
+      <Position>9</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="85" parent="34" name="BIRTHDAY">
+      <Position>10</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="86" parent="34" name="QQ">
+      <Position>11</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="87" parent="34" name="EMAIL">
+      <Position>12</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="88" parent="34" name="INTRODUCTION">
+      <Position>13</Position>
+      <DataType>VARCHAR2(2000)|0</DataType>
+    </column>
+    <index id="89" parent="34" name="PK_USER_ID">
+      <ObjectId>20612</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:22</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:22</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="90" parent="34" name="UK_USER_NAME">
+      <ObjectId>20613</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:22</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:22</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>USER_NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="34" name="PK_USER_ID">
+      <ModifiedTimestamp>2018-12-19.15:46:22</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_USER_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="92" parent="34" name="UK_USER_NAME">
+      <ModifiedTimestamp>2018-12-19.15:46:22</ModifiedTimestamp>
+      <ColNames>USER_NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>UK_USER_NAME</UnderlyingIndexName>
+    </key>
+    <column id="93" parent="35" name="USER_ID">
+      <Position>1</Position>
+      <Comment>UID
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="35" name="FACE">
+      <Position>2</Position>
+      <Comment>头像
+</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="95" parent="35" name="GENDER">
+      <Position>3</Position>
+      <Comment>性别
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="96" parent="35" name="AGE">
+      <Position>4</Position>
+      <Comment>年龄
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="97" parent="35" name="BIRTHDAY">
+      <Position>5</Position>
+      <Comment>生日
+</Comment>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="98" parent="35" name="QQ">
+      <Position>6</Position>
+      <Comment>qq
+</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="99" parent="35" name="EMAIL">
+      <Position>7</Position>
+      <Comment>邮箱
+</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="100" parent="35" name="INTRODUCTION">
+      <Position>8</Position>
+      <Comment>简介
+</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <index id="101" parent="35" name="PK_USERINFO_ID">
+      <ObjectId>20615</ObjectId>
+      <CreatedTimestamp>2018-12-19.15:46:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:23</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="102" parent="35" name="PK_USERINFO_ID">
+      <ModifiedTimestamp>2018-12-19.15:46:23</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_USERINFO_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="103" parent="36" name="QUESTION_ID">
+      <Position>1</Position>
+      <Comment>题目编号</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="36" name="ANSWER">
+      <Position>2</Position>
+      <Comment>题目答案</Comment>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="37" name="QUESTION_ID">
+      <Position>1</Position>
+      <Comment>题目编号</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="37" name="CHOSE_ID">
+      <Position>2</Position>
+      <Comment>选项编号</Comment>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="37" name="CHOSE">
+      <Position>3</Position>
+      <Comment>选项内容</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="38" name="STUDENT_ID">
+      <Position>1</Position>
+      <Comment>学生编号</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="38" name="PAPER_ID">
+      <Position>2</Position>
+      <Comment>试卷编号</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="38" name="ROCORD">
+      <Position>3</Position>
+      <Comment>答案记录</Comment>
+      <DataType>VARCHAR2(400)|0</DataType>
+    </column>
+    <column id="111" parent="38" name="IS_TESTED">
+      <Position>4</Position>
+      <Comment>是否已考</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="112" parent="38" name="IS_READ">
+      <Position>5</Position>
+      <Comment>是否批阅</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="113" parent="38" name="READ_NAME">
+      <Position>6</Position>
+      <Comment>批阅人</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="114" parent="39" name="PAPER_ID">
+      <Position>1</Position>
+      <Comment>试卷编号</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="39" name="PAPER_NAME">
+      <Position>2</Position>
+      <Comment>试卷名称</Comment>
+      <DataType>VARCHAR2(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="39" name="USER_NAME">
+      <Position>3</Position>
+      <Comment>出卷人姓名</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="117" parent="39" name="START_TIME">
+      <Position>4</Position>
+      <Comment>开始时间</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="39" name="END_TIME">
+      <Position>5</Position>
+      <Comment>结束时间</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="39" name="PAPER_TIME">
+      <Position>6</Position>
+      <Comment>考试时长</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="39" name="SCORE">
+      <Position>7</Position>
+      <Comment>总分</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="39" name="PAPER_START">
+      <Position>8</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="122" parent="39" name="SYS_C007290">
+      <ObjectId>20620</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-19.15:46:43</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:43</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>PAPER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="123" parent="39" name="SYS_C007290">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-12-19.15:46:44</ModifiedTimestamp>
+      <ColNames>PAPER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007290</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="124" parent="40" name="PAPER_ID">
+      <Position>1</Position>
+      <Comment>试卷编号</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="40" name="QUESTION_ID">
+      <Position>2</Position>
+      <Comment>题目编号</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="41" name="QUESTION_ID">
+      <Position>1</Position>
+      <Comment>题目编号</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="41" name="QUESTION">
+      <Position>2</Position>
+      <Comment>题目内容</Comment>
+      <DataType>VARCHAR2(1000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="128" parent="41" name="TYPE_ID">
+      <Position>3</Position>
+      <Comment>类型编号</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="129" parent="41" name="ADD_TIME">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="130" parent="41" name="SYS_C007296">
+      <ObjectId>20623</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-19.15:46:50</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:50</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>QUESTION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="131" parent="41" name="SYS_C007296">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-12-19.15:46:50</ModifiedTimestamp>
+      <ColNames>QUESTION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007296</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="132" parent="42" name="STUDENT_ID">
+      <Position>1</Position>
+      <Comment>考试人员id</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="42" name="PAPER_ID">
+      <Position>2</Position>
+      <Comment>试卷ID</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="134" parent="42" name="SCORE">
+      <Position>3</Position>
+      <Comment>成绩</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="135" parent="43" name="TYPE_ID">
+      <Position>1</Position>
+      <Comment>类型名称</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="43" name="TYPE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="137" parent="43" name="SYS_C007301">
+      <ObjectId>20626</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-19.15:46:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.15:46:57</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>TYPE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="138" parent="43" name="SYS_C007301">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-12-19.15:46:57</ModifiedTimestamp>
+      <ColNames>TYPE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007301</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
